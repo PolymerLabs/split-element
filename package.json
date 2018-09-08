@@ -1,0 +1,25 @@
+{
+  "name": "split-element",
+  "version": "0.1.0-pre.1",
+  "description": "Lazy-loaded LitElements",
+  "main": "split-element.js",
+  "module": "split-element.js",
+  "repository": "PolymerLabs/split-element",
+  "scripts": {
+    "test": "polymer test"
+  },
+  "keywords": [],
+  "author": "The Polymer Authors",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "@polymer/lit-element": "^0.6.0-dev.6"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "wct-browser-legacy": "^1.0.1"
+  },
+  "typings": "split-element.d.ts"
+}

@@ -1,0 +1,5 @@
+node_modules/
+lib/
+test/**/*.js
+split-element.js
+split-element.d.ts

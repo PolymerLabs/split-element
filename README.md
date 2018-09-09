@@ -32,12 +32,12 @@ import {SplitElement, property} from '../split-element.js';
 
 export class MyElement extends SplitElement {
   static async load() {
-    return (await import('./my-element-impl.js')).TestElement;
+    return (await import('./my-element-impl.js')).MyElementImpl;
   }
 
   @property() message?: string;
 }
-customElements.define('test-element', TestElementStub);
+customElements.define('my-element', MyElement);
 ```
 
 my-element-impl.ts:
